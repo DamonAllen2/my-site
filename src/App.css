@@ -2,9 +2,31 @@
   text-align: center;
 }
 
-h1 {
+.App header {
+  height: 14.5rem;
+  position: top;
+  margin: -21px;
   text-align: left;
-  padding-left: 2rem;
+  background-image: url(./images/wp9637255.jpg);
+  background-size: cover;
+  color: white;
+}
+
+header .picture1 {
+  align-items: right;
+  float: right;
+  border-radius: 50%;
+  max-width: 13.5rem;
+  margin-right: 2rem;
+  margin-top: 0.5rem;
+}
+
+h1 {
+  margin-left: 1.7rem;
+}
+
+h2 {
+  padding-left: 2.7rem;
 }
 
 .App-header {
