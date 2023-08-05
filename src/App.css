@@ -32,10 +32,29 @@ h2 {
 
 
 .bio {
+  line-height: 1.6;
   margin: auto;
-  width: 40rem;
+  width: 70rem;
   font-size: 1.3rem;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.foxy {
+  align-items: right;
+  float: right;
+  border-radius: 50%;
+  max-width: 10rem;
+  margin-left: 2rem;
+  margin-top: 0.5rem;
+}
+
+.fred {
+  align-items: left;
+  float: left;
+  border-radius: 50%;
+  max-width: 10rem;
+  margin-right: 2rem;
+  margin-top: 0.5rem;
 }
 
 @keyframes App-logo-spin {

@@ -1,5 +1,9 @@
 import './App.css';
 import picture1 from './images/106193373.jpg'
+import foxy from './images/foxy.JPG'
+import fred from './images/fred.jpg'
+import shaggy from './images/scooby.jpg'
+import scooby from './images/shaggy.jpg'
 
 function App() {
   return (
@@ -12,6 +16,8 @@ function App() {
         <h2>At Bloomtech</h2>
       </header>
       <div className='bio'>
+      <img src={foxy} className='foxy' alt='My dog Foxy'/>
+      <img src={fred} className='fred' alt='My cat Fred'/>
         <p>
           As a little introduction, my name is Damon Allen.<br>
           </br>I am from Ohio. I started coding in 2022.<br>
