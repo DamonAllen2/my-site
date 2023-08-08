@@ -76,7 +76,47 @@ h2 {
   margin: auto;
 }
 
+.music {
+  position: relative;
+  max-width: 960px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+}
 
+.music-text {
+  margin: auto;
+}
+
+.spotify-link-div {
+  width: 100px;
+  height: 25px;
+  color: white;
+  text-decoration: none;
+  margin: auto;
+  background-color: #1ed724;
+  border: 2px solid #1ed724;
+}
+
+.music-text a {
+  color: white;
+  text-decoration: none;
+}
+
+.spotify-logo {
+  padding-top: 1rem;
+  max-width: 10rem;
+}
+
+.album-art-image {
+  max-width: 25rem;
+}
 
 @keyframes App-logo-spin {
   from {

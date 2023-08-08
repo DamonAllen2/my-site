@@ -1,12 +1,13 @@
 import './App.css';
-import picture1 from './images/106193373.jpg'
+import{ BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import Images from './images';
 
 function App() {
   return (
+    <BrowserRouter>
     <div className="App">
       <header>
-      <img src={picture1} className='picture1' alt='of me'/>
+      <img src={Images.me} className='picture1' alt='of me'/>
         <h1>Damon's Site</h1>
         <h2>A learning Frontend</h2>
         <h2>Web Developer</h2>
@@ -33,13 +34,20 @@ function App() {
       </div>
       <div className='music'>
         <div className='album-art'>
-
+        <img src={Images.albumArt} className='album-art-image' alt='Album art of my favorite song'/>
         </div>
-        <p>
-          
-        </p>
+        <div className='music-text'>
+          <h3>
+           Currently, my favorite song is "Only Pain" by Gojira
+          </h3>
+          <div className='spotify-link-div'>
+          <a href="https://open.spotify.com/user/ce65p8290qedlmj8a5vt60h5a" className='spotify-link' target="_blank">My Spotify<br></br></a>
+          </div>
+          <img src={Images.spotify} className='spotify-logo' alt='Spotify logo' />
+        </div>
       </div>
     </div>
+    </BrowserRouter>
   );
 }
 
