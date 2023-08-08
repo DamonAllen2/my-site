@@ -1,10 +1,6 @@
 import './App.css';
 import picture1 from './images/106193373.jpg'
-import foxy from './images/foxy.png'
-import fred from './images/fred.png'
-import shaggy from './images/scooby.png'
-import scooby from './images/shaggy.png'
-import foxandsoph from './images/foxandsoph.png'
+import Images from './images';
 
 function App() {
   return (
@@ -18,8 +14,8 @@ function App() {
       </header>
       <div className='bio'>
         <div className='pet-container'>
-      <img src={foxy} className='foxy' alt='My dog Foxy'/>
-      <img src={fred} className='fred' alt='My cat Fred'/>
+      <img src={Images.foxy} className='foxy' alt='My dog Foxy'/>
+      <img src={Images.fred} className='fred' alt='My cat Fred'/>
       </div>
       <div className='bio-text'>
         <p>
@@ -31,9 +27,17 @@ function App() {
         </div>
       </div>
       <div className='pet-pictures'>
-      <img src={scooby} className='pets' alt='My cat Scooby'/>
-      <img src={shaggy} className='pets' alt='My cat Shaggy'/>
-      <img src={foxandsoph} className='pets' alt='Both of my dogs'/>
+      <img src={Images.scooby} className='pets' alt='My cat Scooby'/>
+      <img src={Images.shaggy} className='pets' alt='My cat Shaggy'/>
+      <img src={Images.foxandsoph} className='pets' alt='Both of my dogs'/>
+      </div>
+      <div className='music'>
+        <div className='album-art'>
+
+        </div>
+        <p>
+          
+        </p>
       </div>
     </div>
   );
