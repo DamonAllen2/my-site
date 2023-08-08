@@ -51,11 +51,32 @@ h2 {
 .fred {
   align-items: left;
   float: left;
-  border-radius: 50%;
+  border-radius: 100%;
   max-width: 10rem;
   margin-right: 2rem;
   margin-top: 0.5rem;
 }
+
+.bio-text {
+  align-items: center;
+}
+
+.pets {
+  max-width: 20rem;
+  border: 2px solid black;
+}
+
+.pet-pictures {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-content: center;
+  align-self: center;
+  max-width: 75rem;
+  margin: auto;
+}
+
+
 
 @keyframes App-logo-spin {
   from {
